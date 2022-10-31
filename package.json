@@ -1,0 +1,53 @@
+{
+  "name": "cayetanofinanciera-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresezequielmanzanares/cayetanofinanciera-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresezequielmanzanares/cayetanofinanciera-backend/issues"
+  },
+  "homepage": "https://github.com/andresezequielmanzanares/cayetanofinanciera-backend#readme",
+  "dependencies": {
+    "@formulajs/formulajs": "^3.1.7",
+    "@sendgrid/mail": "^6.5.0",
+    "adm-zip": "^0.5.4",
+    "aws": "^0.0.3-2",
+    "aws-sdk": "^2.1186.0",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "csv-parser": "^2.3.2",
+    "dotenv": "^16.0.1",
+    "excel-formula": "^1.5.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-jwt": "^5.3.3",
+    "express-validator": "^6.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mime": "^2.4.5",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.8.3",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.10.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.7.8",
+    "puppeteer": "^13.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
