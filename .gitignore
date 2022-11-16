@@ -107,7 +107,7 @@ dist
 
 files/*
 #
-config
+config/
 
 # json
 package-lock.json
